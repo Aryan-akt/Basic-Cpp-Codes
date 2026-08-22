@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
@@ -14,5 +13,4 @@ selecting the text. */
     cout << "This code shows how and why coments are used.";
 
     return 0;
-
 }

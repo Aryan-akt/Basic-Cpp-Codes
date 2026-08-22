@@ -11,5 +11,4 @@ int main() {            // The mandatory entry point execution loop
     cout << "This code depicts the breakdown of a boilerplate code.";
 
     return 0;           // Signals to the operating system that the program ran successfully
-    
 }
