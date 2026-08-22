@@ -23,5 +23,7 @@ int main() {
     
     value();                // This will give 12 as output since it gives precedence to global variable over local variable.
 
+    cout << endl << :: c;   // "::" is a Scope Resolution Opperator. It uses the global value of c.
+
     return 0;
 }
