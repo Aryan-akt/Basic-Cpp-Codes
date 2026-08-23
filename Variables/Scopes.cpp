@@ -19,7 +19,7 @@ int main() {
 
     cout << glo << endl;
     cout << loc << endl;
-    cout << c << endl;      // This will give 24 as an output since it gives precedence to local variable over global variable
+    cout << c << endl;      // This will give 24 as an output since it gives precedence to local variable over global variable.
     
     value();                // This will give 12 as output since it gives precedence to global variable over local variable.
 

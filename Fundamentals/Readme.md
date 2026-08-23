@@ -1,0 +1,1 @@
+This folder contains fundamental concepts of C++.
