@@ -22,6 +22,9 @@ int main() {
     cout << "The value of ++b is: " << ++b<<endl;
     cout << "The value of --b is: " << --b<<endl;
 
+// Output of all the following operators is always either true (1) or false (0).
+
+
     cout << "\nCOMPARISON OPERATORS\n";
     cout << "The value of a==b is: " << (a == b)<<endl;
     cout << "The value of a!=b is: " << (a != b)<<endl;
