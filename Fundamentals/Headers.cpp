@@ -8,7 +8,7 @@ int main() {
     cout << "   Example :- #include <iostream>" << endl << endl;
 
     cout << "2) User defined header files: " << endl;
-    cout << "   Example :- #include <user.h> (A file named 'user.h' must be present in the directory, otherwise an error occurs)";
+    cout << "   Example :- #include <user.h> (A file named 'user.h' must be present in the same directory, otherwise an error occurs)";
 
     return 0;
 }

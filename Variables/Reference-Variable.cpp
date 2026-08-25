@@ -7,12 +7,12 @@ using namespace std;
 int main() {
 
     int x = 10;
-    int& y = x; // 'y' is now a reference to 'x'
+    int& y = x;     // 'y' is now a reference to 'x'
 
     cout << "The value of x is " << x << endl;
     cout << "The value of y is also " << y << endl;
 
-    y = 20; // Modifying y updates x
+    y = 20;         // Modifying y updates x
 
     cout << "Changing the value of y also changes the value of x: " << x; // Outputs 20
 
