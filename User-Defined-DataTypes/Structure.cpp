@@ -9,7 +9,7 @@ typedef struct Employee {       // 'typedef' is used to type just 'ep' instead o
         char FavLetter;         // 1 byte       //int, char and float collectively take up 9 bytes of memory.
         float Salary;           // 4 bytes
 
-} ep ;                          // We can use any short form.
+} ep ;                          // We can use any short form instead of 'ep'.
 
 int main() {
 
