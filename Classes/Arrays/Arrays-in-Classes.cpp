@@ -1,17 +1,20 @@
+// Arrays can be made inside classes just like they are made outside.
+
 #include <iostream>
 using namespace std;
 
 class shop
 {
-    int ItemID[100];        // These are by default set to private.
+    // These are by default set to private.
+    int ItemID[100];        // This makes an Array of 100 memory allocations for 'ItemID'.
     int ItemPrice[100];
     int counter;
 
-public:
+    public:
 
-    void initCounter(void) {counter = 0;}
-    void Set_Price_ID(void);
-    void DisplayPrice(void);
+        void initCounter(void) {counter = 0;}
+        void Set_Price_ID(void);
+        void DisplayPrice(void);
 };
 
 void shop :: Set_Price_ID(void)
@@ -43,7 +46,7 @@ int main() {
     Shelf_1.Set_Price_ID();
     Shelf_1.Set_Price_ID();
     Shelf_1.Set_Price_ID();
-    Shelf_1.DisplayPrice();
+    Shelf_1.DisplayPrice();         // Using this function just once prints the Price and ID of all items because it was made usind a for loop.
 
     return 0;
 }

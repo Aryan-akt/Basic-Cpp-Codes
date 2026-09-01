@@ -12,24 +12,24 @@ class student
     int m;
     static int RollNo;
 
-public:
+    public:
 
-    void setMarks(void)
+        void setMarks(void)
+        {
+        cout << "Enter marks of student with roll no. " << RollNo << endl;
+        cin >> m;
+    }
+
+    void displayMarks(void)
     {
-    cout << "Enter marks of student with roll no. " << RollNo << endl;
-    cin >> m;
-}
+        cout << "The marks of student with roll no. "<< RollNo << " is " << m << endl;
+    }
 
-void displayMarks(void)
-{
-    cout << "The marks of student with roll no. "<< RollNo << " is " << m << endl;
-}
-
-static void displayRollNo(void)         // This is definition of the static function.
-{
-    cout << "The roll no. of this student is " << RollNo << endl;
-    RollNo++;
-}
+    static void displayRollNo(void)         // This is definition of the static function.
+    {
+        cout << "The roll no. of this student is " << RollNo << endl;
+        RollNo++;
+    }
 
 };
 

@@ -8,14 +8,14 @@ using namespace std;
 class binary
 {
 
-private:
-    string a;
-    void check(void);
+    private:
+        string a;
+        void check(void);
 
-public:
-    void read(void);        // These are function prototypes.
-    void swap01(void);
-    void display(void);
+    public:
+        void read(void);        // These are function prototypes.
+        void swap01(void);
+        void display(void);
 };
 
 void binary :: read(void)
