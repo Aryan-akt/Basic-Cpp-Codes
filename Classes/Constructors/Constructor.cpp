@@ -30,7 +30,7 @@ class eqnOfLine
 };
 
 eqnOfLine :: eqnOfLine()        // Whenever an object is created, 'a', 'b', and 'c' will be initiallized with the following values.
-{
+{                               // This is a Default Constructor as it takes no parameters/arguments.
     a = 1;
     b = 1;
     c = 1;
