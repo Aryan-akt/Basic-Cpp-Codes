@@ -51,7 +51,7 @@ int dist3D(point o1, point o2)
 
 int main() {
 
-    // Distance between two points in 2D
+    // Distance between two points in a 2D plane.
     int inputa, inputb;
     static int m = 1;
 
@@ -73,7 +73,7 @@ int main() {
 
     cout << "The distance between these points in 2D plane is " << dist2D(p1, p2) << endl;
 
-    // Distance between two points in 3D
+    // Distance between two points in a 3D space.
     int inputc;
 
     cout << "Enter the x co-ordinate of point number " << m << endl;
