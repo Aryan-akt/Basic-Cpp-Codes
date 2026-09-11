@@ -1,3 +1,9 @@
+// Syntax for For Loop:
+
+// for (initialization; condition; updation) {
+//     loop code << endl;
+// }
+
 #include <iostream>
 using namespace std;
 

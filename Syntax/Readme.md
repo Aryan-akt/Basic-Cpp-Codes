@@ -1,1 +1,0 @@
-This folder contains Snippets for frequently used codes in C++.

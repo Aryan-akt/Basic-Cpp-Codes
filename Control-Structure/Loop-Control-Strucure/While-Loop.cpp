@@ -1,5 +1,11 @@
 // The condition is checked before the execution of loop.
 
+// Syntax for While Loop:
+
+// while (condition) {
+//       loop code << endl;
+// }
+
 #include <iostream>
 using namespace std;
 

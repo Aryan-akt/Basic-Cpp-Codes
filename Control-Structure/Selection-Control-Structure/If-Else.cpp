@@ -1,5 +1,17 @@
 // Check eligibility for driving and learners license using If-Else Control Structure.
 
+// If Else Selection Structure Syntax
+
+// if (condition1) {
+//     code1 << endl;
+// }
+// else if (condition2) {
+//     code2 << endl;
+// }
+// else {
+//  code3 << endl;
+// }
+
 #include <iostream>
 using namespace std;
 
