@@ -1,22 +1,7 @@
-// Inheretence means to derive a new class from an already existing class.
+// Single Inheritance is the simplest form of Inheritance.
+//  In Single Inheritance, 1 child class is derived from 1 Base class.
 
-// Private members of base class cannot be derived.
-
-// There are two types of visibility modes :
-//    1. Public visibility mode : Public members of base class are made public members of derived class.
-//    2. Private visibility mode : Public members of base class are made private members of derived class.
-//    3. The default visiblity mode is private. (when mode is not specified in the syntax)
-
-/*
-Syntax of Inheriting a class :
-
-class {{derived class name}} : {{visibility mode}} {{base class name}}
-{
-    members/methods/etc...
-}
-*/
-
-// Below is a basic example of Single Inheritance.
+// Below is a simple example of Single Inheritance.
 
 #include <iostream>
 using namespace std;

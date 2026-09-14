@@ -1,0 +1,50 @@
+
+===============================================| THEORY OF INHERITANCE |===================================================
+
+
+1. -> Inheretence means to derive a new class from an already existing class.
+
+   -> This allows the derived class to access certain members of the base class.
+
+   -> Private members of base class cannot be derived.
+
+
+
+2. -> Syntax of Inheriting a class is:
+
+      class {{derived class name}} : {{visibility mode}} {{base class name}}
+      {
+          Class Body (members/methods/etc...)
+      }
+
+
+
+3. -> There are three types of visibility modes :
+
+       1. Public visibility mode     : Public members of base class are made public members of derived class.
+       2. Private visibility mode    : Public members of base class are made private members of derived class.
+       3. Protected visibility mode  : Shown below in the following table in 4th point.
+
+   -> The default visiblity mode is private. (when mode is not specified in the syntax)
+
+
+
+4. -> The following table depicts how each type of member (Private/Public/Protected) is derived into the child/derived
+      class depending upon the visibility mode of Inheritance.
+
+     
+        ****                 Public Derivation       Private Derivation      Protected Derivation
+ 
+     Private Members           Not Inherited           Not Inherited            Not Inherited
+     Protected Members           Protected                Private                 Protected
+     Public Members               Public                  Private                 Protected
+
+
+
+5. -> There are 5 forms of Inheretence:
+
+       1. Single Inheretence
+       2. Multilevel Inheretence
+       3. Multiple Inheretence
+       4. Hierarchial Inheretence
+       5. Hybrid Inheretence
