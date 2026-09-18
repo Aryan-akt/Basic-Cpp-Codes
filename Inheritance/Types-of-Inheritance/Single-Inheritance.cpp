@@ -1,7 +1,7 @@
 // Single Inheritance is the simplest form of Inheritance.
 //  In Single Inheritance, 1 child class is derived from 1 Base class.
 
-// Below is a simple example of Single Inheritance.
+// [ A ---> B ] is the Inheritance Path of Single Inheritance.
 
 #include <iostream>
 using namespace std;

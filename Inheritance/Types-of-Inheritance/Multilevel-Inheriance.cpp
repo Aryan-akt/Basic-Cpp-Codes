@@ -1,9 +1,7 @@
 // Multilevel Inheritance is when a class is derived from a derived class.
 // Here 'A' is base class for 'B' and 'B' is base class for 'C'
-// [ A --> B --> C ] is called the Inheritance Path.
 
-// Below is a simple example of Multilevel Inheritance.
-
+// [ A --> B --> C ] is the Inheritance Path of Multilevel Inheritance.
 
 #include <iostream>
 using namespace std;

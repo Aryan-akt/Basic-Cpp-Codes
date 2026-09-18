@@ -46,6 +46,5 @@ int main() {
     e1.setEqn(9, 5, 12);
     e1.displayEqn();            // Values can still be altered later.
 
-
     return 0;
 }

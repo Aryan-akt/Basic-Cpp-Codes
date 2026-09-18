@@ -1,5 +1,12 @@
 // Multiple Inheritance is when 1 child class is derived from 2 or more base classes.
 
+// A        B
+// |        |
+// ----------
+//     |
+//     C
+// above is the Inheritance Path of Multiple Inheritance.
+
 /*
 Syntax of Multiple Inheritance:
     class {{derived class name}} : {{visibility mode}} {{1st base class name}}, {{visibility mode}} {{2nd base class name}},...
@@ -9,8 +16,6 @@ Syntax of Multiple Inheritance:
 */
 
 // Each base class has its own visibility mode.
-
-// Below is a simple example of Multiple Inheritance.
 
 #include <iostream>
 using namespace std;
