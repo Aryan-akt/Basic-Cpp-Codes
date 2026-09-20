@@ -1,6 +1,9 @@
 // Ambiguity error occurs when a derived class inherits members (functions or variables) with the same name from multiple paths,
 // leaving the compiler unable to decide which one to use.
 
+
+// Scope resolution operator can be used while calling the member to specify which member to use.
+
 #include <iostream>
 using namespace std;
 
