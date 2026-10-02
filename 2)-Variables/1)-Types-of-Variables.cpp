@@ -1,0 +1,23 @@
+// These are some examples of common variables in C++
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    
+    int a = 10, b = 20;
+    float pi = 3.14;
+    char k = 'A';
+    string s = "Good Morning!";
+    bool x = false;
+    // A true boolean value gives output as 1, whereas a false boolean value gives output as 0
+
+    // And these are they're output values
+    cout << "The value of a is " << a << " and the value of b is "<< b <<".\n";
+    cout << "The value of pi is " << pi;
+    cout << "\nThe value of k is " << k;
+    cout << "\nThe value of x is " << x << endl;
+    cout << s;
+
+    return 0;
+}   
