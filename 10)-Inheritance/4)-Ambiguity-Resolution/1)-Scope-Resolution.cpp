@@ -34,8 +34,8 @@ class d : public b1, public b2      // Both the base classes has member "x" and 
 
 };
 
-int main() {
-
+int main()
+{
     d a;
 
     // Scope resolution operator can be used to determine which class' members are to be used.

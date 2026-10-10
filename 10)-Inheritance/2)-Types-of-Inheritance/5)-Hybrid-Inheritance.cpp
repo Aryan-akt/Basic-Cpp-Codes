@@ -63,8 +63,8 @@ class D : public B, public C        // class derived from B and C
     }
 };
 
-int main() {
-
+int main()
+{
     A a;
     a.a = 1;
     

@@ -81,8 +81,8 @@ class derived : public base1, public base2                   // base1 constructo
         }
 };
 
-int main() {
-
+int main()
+{
     derived d(1, 2, 3, 4, 5, 6);
 
     d.displayData();            // Calls derived class constructor as it is given priority.

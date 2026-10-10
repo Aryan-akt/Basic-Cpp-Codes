@@ -25,8 +25,8 @@ class number
         }
 };
 
-int main() {
-
+int main()
+{
     number a;
 
     // The scope of elements created inside the block is within the block itself.

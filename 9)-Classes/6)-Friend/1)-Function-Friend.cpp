@@ -42,8 +42,8 @@ complex sumComplex(complex o1, complex o2)
     return o3;
 }
 
-int main() {
-
+int main()
+{
     complex c1, c2, c3;
 
     c1.setComplex(5, 9);

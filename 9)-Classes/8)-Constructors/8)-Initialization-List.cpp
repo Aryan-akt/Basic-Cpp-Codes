@@ -38,8 +38,8 @@ class A
         }                                       // declared before "t", and thus "u" will be initialized before "t"
 };
 
-int main() {
-
+int main()
+{
     A a(3, 7);
 
     return 0;

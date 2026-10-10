@@ -19,8 +19,8 @@ class derived : protected base
 
 };
 
-int main() {
-
+int main()
+{
     base b;
     derived d;
 

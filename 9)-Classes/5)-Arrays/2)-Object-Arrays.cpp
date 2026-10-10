@@ -26,8 +26,8 @@ class Employee
 
 };
 
-int main() {
-
+int main()
+{
     Employee Office[5];         // This is an Array of object 'Office'.
 
     for(int i = 0; i < 5; i++)

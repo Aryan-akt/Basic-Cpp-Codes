@@ -23,8 +23,8 @@ class data
         c = z;
     }
 
-int main() {
-
+int main()
+{
     data d1;
     d1.display();           // Displays the default arguments i.e. 18, 7, 5
 

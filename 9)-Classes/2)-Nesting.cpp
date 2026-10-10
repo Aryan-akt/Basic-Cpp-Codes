@@ -70,7 +70,6 @@ void binary :: display()
 
 int main()
 {
-
     binary b;
 
     b.read();

@@ -33,8 +33,8 @@ class student
 
 int student :: RollNo = 1;        // Default value of static variable is set to 0, which can be changed like this.
 
-int main() {
-
+int main()
+{
     student Aryan, Tanmay, Smit;
 
     Aryan.setMarks();

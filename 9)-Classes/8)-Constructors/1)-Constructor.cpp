@@ -36,8 +36,8 @@ eqnOfLine :: eqnOfLine()        // Whenever an object is created, 'a', 'b', and 
     c = 1;
 }
 
-int main() {
-
+int main()
+{
     eqnOfLine e1, e2;
 
     e1.displayEqn();            // These will display the initialized equation "1x + 1y + 1".

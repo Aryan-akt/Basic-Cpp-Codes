@@ -44,8 +44,8 @@ void swapData(X & o1 , Y & o2)          // Swaping using Reference Variables
     o2.b = t;
 }
 
-int main() {
-
+int main()
+{
     X x1;
     Y y1;
 

@@ -31,8 +31,8 @@ class child : public mother, public father
 
 };
 
-int main() {
-
+int main()
+{
     child obj;
 
     obj.show();         // Works perfectly fine with no ambiguity because of "virtual".

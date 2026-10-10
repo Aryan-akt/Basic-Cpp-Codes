@@ -32,8 +32,8 @@ class marks
 
 };
 
-int main() {
-
+int main()
+{
     marks m1;
 
     m1.display();

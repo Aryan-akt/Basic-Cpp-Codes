@@ -24,8 +24,8 @@ class eqnOfPlane
     d = s;
 }
 
-int main() {
-
+int main()
+{
     // Parameterized Constructors can be called in the following two ways :-
 
         // Implicit Call

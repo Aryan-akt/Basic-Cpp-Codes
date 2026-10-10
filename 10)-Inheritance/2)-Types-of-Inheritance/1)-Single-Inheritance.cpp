@@ -42,8 +42,8 @@ class car : public vehical
         }
 };
 
-int main() {
-
+int main()
+{
     car c1("Mercedes", 20000000), c2("Porsche", 35000000);
 
     c1.set(2564, 19.5);

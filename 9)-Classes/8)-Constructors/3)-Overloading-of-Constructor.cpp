@@ -30,8 +30,8 @@ class complex
     }
 };
 
-int main() {
-
+int main()
+{
     complex c1;
     c1.display();
 

@@ -70,8 +70,8 @@ class result : public exam
 
 };
 
-int main() {
-
+int main()
+{
     result Aryan, Shreya, Aditya;
 
     Aryan.setRollNo(9);

@@ -31,8 +31,8 @@ class Son : public Parent          // Derived class
         int studentID;
 };
 
-int main() {
-
+int main()
+{
     Son s;
     Daughter d;
 

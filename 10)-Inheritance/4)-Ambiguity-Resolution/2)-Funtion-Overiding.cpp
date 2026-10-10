@@ -38,8 +38,8 @@ class d : public b1, public b2
         }
 };
 
-int main() {
-
+int main()
+{
     d a;
 
     cout << a.x << endl;        // Since derived class is given presidence, this gives 25 as output.

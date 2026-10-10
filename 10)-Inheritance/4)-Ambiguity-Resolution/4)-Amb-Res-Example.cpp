@@ -101,8 +101,8 @@ class result : public theory, public lab, public sports
         }
 };
 
-int main() {
-
+int main()
+{
     result aryan;
 
     aryan.setDetails(51, 'b');

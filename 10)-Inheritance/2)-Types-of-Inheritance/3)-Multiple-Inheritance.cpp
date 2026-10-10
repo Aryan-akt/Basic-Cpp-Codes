@@ -51,8 +51,8 @@ class finalPercentage : public semester_1, public semester_2
         }
 };
 
-int main() {
-
+int main()
+{
     finalPercentage s1, s2;
     
     s1.setPer1(95);

@@ -6,8 +6,8 @@
 #include <iomanip>
 using namespace std;
 
-int main() {
-
+int main()
+{
     int l = 1, m = 12, n = 123, o = 1234;
     
     cout << "The value of l without setw is " << l << endl;                 // output = 1

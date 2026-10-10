@@ -53,8 +53,8 @@ int Calculator :: sumImg(Complex o1, Complex o2)
         return (o1.b) + (o2.b);
     }
 
-int main() {
-
+int main()
+{
     Complex c1, c2, c3;
 
     c1.setComplex(7, 2);
