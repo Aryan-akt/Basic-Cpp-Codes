@@ -1,6 +1,6 @@
 // "This" pointer is used when function argument and class members have same name.
 // "This" is a pointer keyword which points to the object which invokes the member function.
-// The below code wont show any errors but instead of required output 5, it will return a garbage value.
+// The below code wont show any errors but instead of desired output "5", it will return a garbage value.
 
 // #include <iostream>
 // using namespace std;
@@ -29,6 +29,7 @@
 
 //     return 0;
 // }
+
 
 // The correct code will be as follows :-
 
