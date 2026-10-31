@@ -1,7 +1,7 @@
 // A "Pointer to an Object" stores the memory address of a class' object.
 
-// The "Arrow Operator" (->) is a syntactic shortcut used exclusively with pointers to access the members (variables or functions)
-// of the object being pointed to.
+// The "Arrow Operator" (->) is a syntactic shortcut used exclusively with pointers to access the members (variables or functions) of
+// the object being pointed to.
 
 #include <iostream>
 using namespace std;
@@ -19,7 +19,7 @@ class student
         void get()
         {
             cout << "Student with roll no. " << rollNo << endl
-                 << "recieved marks - " << marks << endl << endl;
+                 << "Recieved marks - " << marks << endl << endl;
         }
 
 };

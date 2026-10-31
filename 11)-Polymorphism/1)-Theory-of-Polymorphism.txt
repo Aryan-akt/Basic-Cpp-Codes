@@ -1,0 +1,35 @@
+
+===============================================| THEORY OF POLYMORPHISM |===================================================
+
+
+1. -> Polymorphism is a concept where a single function name, operator, or interface behaves differently depending on the context or
+      object it is used with.
+
+   -> The word originates from Greek, meaning "many forms".
+
+
+
+2. -> C++ categorizes polymorphism into two main types:
+
+      i.  Compile time (Static) Polymorphism
+      ii. Runtime (Dynamic) Polymorphism
+
+
+
+3. -> /--------------------------------------------------------------------------------------------------------------\
+      |     Feature        |         Compile time Polymorphism           |         Runtime Polymorphism              |
+      |--------------------|---------------------------------------------|-------------------------------------------|      
+      |                    |                                             |                                           |
+      |    Alternative     |       Static Binding, Early Binding         |      Dynamic Binding, Late Binding        |
+      |      names         |                                             |                                           |
+      |                    |                                             |                                           |
+      |     How It's       |       Function Overloading & Operator       |      Function Overriding via virtual      |
+      |     Achieved       |               Overloading                   |                functions                  |
+      |                    |                                             |                                           |
+      |    Resolution      |      Determined by the compiler during      |        Resolved while the program is      |
+      |      Time          |               compilation                   |                 running                   |
+      |                    |                                             |                                           |
+      |    Performance     |         Faster execution (no runtime)       |        Slightly slower due to virtual     |
+      |                    |                 overhead                    |            table (vtable) lookups         |
+      \--------------------------------------------------------------------------------------------------------------/
+

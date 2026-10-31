@@ -19,9 +19,9 @@ int main() {
     a[0] = 20;
     a[1] = 40;
     *(a+2) = 60;      // Another way of allocating memory.
-    
+
     cout << "The value at the first memory location of the array is " << a[0] << endl;
-    cout << "The value at the second memory location of the array is " << a[1] << endl;
+    cout << "The value at the second memory location of the array is " << *(a+1) << endl;
     cout << "The value at the third memory location of the array is " << a[2] << endl;
     
     delete[] a;       // This will delete the array "a".
