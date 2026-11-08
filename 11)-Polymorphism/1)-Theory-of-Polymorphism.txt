@@ -17,19 +17,19 @@
 
 
 3. -> /--------------------------------------------------------------------------------------------------------------\
-      |     Feature        |         Compile time Polymorphism           |         Runtime Polymorphism              |
+      |      Features      |          Compile time Polymorphism          |           Runtime Polymorphism            |
       |--------------------|---------------------------------------------|-------------------------------------------|      
       |                    |                                             |                                           |
-      |    Alternative     |       Static Binding, Early Binding         |      Dynamic Binding, Late Binding        |
-      |      names         |                                             |                                           |
+      |    Alternative     |       Static Binding, Early Binding         |       Dynamic Binding, Late Binding       |
+      |       names        |                                             |                                           |
       |                    |                                             |                                           |
       |     How It's       |       Function Overloading & Operator       |      Function Overriding via virtual      |
       |     Achieved       |               Overloading                   |                functions                  |
       |                    |                                             |                                           |
       |    Resolution      |      Determined by the compiler during      |        Resolved while the program is      |
-      |      Time          |               compilation                   |                 running                   |
+      |       Time         |               compilation                   |                 running                   |
       |                    |                                             |                                           |
       |    Performance     |         Faster execution (no runtime)       |        Slightly slower due to virtual     |
       |                    |                 overhead                    |            table (vtable) lookups         |
-      \--------------------------------------------------------------------------------------------------------------/
+      ----------------------------------------------------------------------------------------------------------------
 
