@@ -13,14 +13,14 @@ Theory of constructors in derived class :-
 /*
 Syntax for defining a derived class constructor :-
 
-    derived-class(int a, int b) : base(a)
+    derived-class(int a, int b) : base-class(a)
     {
         derived-class-data = b;
     }
 
 This initializes the derived class' data as "b" and also runs base class' constructor with its input being "a".
-If there is multiple inheritance, then more base class constructors can be added next to "base(a)" after a comma.
-The body is called after all constructors are finished executing.
+If there is multiple inheritance, then more base class constructors can be added next to "base(a)" after a comma(,).
+The body is called after all constructors have finished executing.
 */
 
 #include <iostream>

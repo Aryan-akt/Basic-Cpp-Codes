@@ -1,5 +1,5 @@
-// In this code, the compiler decides that which "display()" function is to be called (base class' or derived class') during the
-// run time, hence this is an example of run time polymorphism.
+// In this example code, the compiler decides that which "display()" function is to be called (base class' or derived class') during
+// the run time, hence this is an example of run time polymorphism.
 
 #include <iostream>
 using namespace std;
@@ -29,7 +29,6 @@ class derived_class : public base_class
 int main()
 {
     base_class * base_class_pointer;
-    base_class obj_base;
     derived_class obj_derived;
     base_class_pointer = &obj_derived;              // This points the base class pointer to the derived class object.
 
@@ -49,7 +48,7 @@ int main()
     return 0;
 }
 
-// If the term "virtual" is used in line 11 of this code such as "void virtual display()", then only the derived class function will be
-// called during both the calls of "display() function".
+// If the term "virtual" is used in line 11 of this code such as "void virtual display()", only then the derived class function will be
+// called during both the calls of "display()" function.
 
-// Virtual function is used when the base class pointer needs to be used with derived class functions and not base class functions.
+// Virtual function is used when the base class pointer needs to be used with derived class functions instead of base class functions.
