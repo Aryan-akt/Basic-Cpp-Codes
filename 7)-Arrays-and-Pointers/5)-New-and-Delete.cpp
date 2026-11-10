@@ -23,14 +23,8 @@ int main() {
     cout << "The value at the first memory location of the array is " << a[0] << endl;
     cout << "The value at the second memory location of the array is " << *(a+1) << endl;
     cout << "The value at the third memory location of the array is " << a[2] << endl;
-
-    char *c = new char[5];
-    c = "Aryan";
-
-    cout << "The coder of this code is " << c;
     
     delete[] a;       // This will delete the array "a".
-    delete[] c;       // This will delete the array "c".
 
     return 0;
 }
